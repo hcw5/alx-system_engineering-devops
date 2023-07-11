@@ -1,2 +1,2 @@
 #!/bin/bash
-printf 'BEST=%s\n' "$(BEST="School" && echo $BEST)"
+BEST="School"
