@@ -1,2 +1,2 @@
 #!/bin/bash
-BEST="School"; echo "The value of BEST is: $BEST"
+env BEST="School" bash -c 'echo "The value of BEST is: $BEST"'
