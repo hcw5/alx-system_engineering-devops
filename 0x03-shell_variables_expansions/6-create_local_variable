@@ -1,2 +1,2 @@
 #!/bin/bash
-env BEST="School" bash -c 'echo "The value of BEST is: $BEST"'
+printf 'BEST=%s\n' "$(BEST="School" && echo $BEST)"
